@@ -13,13 +13,10 @@ void Karen::complain(int level)
 		case ('D' - 'A'):
 			this->debug();
 		case ('I' - 'A'):
-			std::cout << "\n";
 			this->info();
 		case ('W' - 'A'):
-			std::cout << "\n";
 			this->warning();
 		case ('E' - 'A'):
-			std::cout << "\n";
 			this->error();
 			break;
 		default:
